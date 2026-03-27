@@ -79,7 +79,7 @@ const sections = [
       },
       {
         src: "/images/pool-2023.jpg",
-        caption: "Pool day at sister Mary and brother-in-law Mike Ross's place, August 2023. They have the best pool. He attends regularly and enthusiastically.",
+        caption: "Pool day at sister Mary and BIL Mike Ross's place, August 2023. They have the best pool. He attends regularly and enthusiastically.",
         year: "Aug 2023",
       },
       {
@@ -100,12 +100,12 @@ const sections = [
       },
       {
         src: "/images/dogs-walk.jpg",
-        caption: "October 2021. Walking two Rottweiler puppies simultaneously. They are in charge. He is aware of this.",
+        caption: "October 2021. Walking his two Rottweilers, Brie and Ella, simultaneously. They are in charge. He is aware of this.",
         year: "Oct 2021",
       },
       {
         src: "/images/dogs-car.jpg",
-        caption: "February 2025. Two Rottweilers in the car. They requested the window seats. He obliged.",
+        caption: "February 2025. His two Rottweilers, Brie and Ella, in the car. They requested the window seats. He obliged.",
         year: "Feb 2025",
       },
     ],

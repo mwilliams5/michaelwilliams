@@ -31,7 +31,7 @@ const awards = [
   {
     img: "/images/rita-2000.jpg",
     title: "The Rita 2000 — Official Manvention™",
-    subtitle: "Laguna Hills, CA — Patent Pending (Spiritually)",
+    subtitle: "Irvine, CA — Patent Pending (Spiritually)",
     desc: "Behold the world's greatest margarita machine: a DeWalt cooler mounted on diamond-plate steel with a dedicated spigot for maximum dispensing efficiency. Built by hand. Tested extensively. The Rita 2000 is not just a machine — it is a philosophy.",
     badge: "🍹",
     color: "bg-blue-50 border-blue-200",
