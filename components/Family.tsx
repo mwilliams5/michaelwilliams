@@ -12,7 +12,7 @@ const sites = [
   },
   {
     href: "https://ireallyhatemary.com",
-    img: "/images/stpatricks-2026.jpg",
+    img: "/images/mary-ross.jpg",
     name: "Mary Williams",
     tagline: "His Sister. It's Complicated.",
     desc: "One of Michael's nine siblings. The subject of a whole website dedicated to her particular brand of drama. The title is affectionate. Mostly. She's at every St. Patrick's Day.",
@@ -23,7 +23,7 @@ const sites = [
     href: "https://williamsfamily.org",
     img: "/images/family-myrtle.jpg",
     name: "The Williams Family",
-    tagline: "All Ten of Them",
+    tagline: "The Williams Family",
     desc: "Robert R. Williams and his extraordinary brood — ten children, countless grandchildren, and one very active family newsletter. Reunion: July 17, 2026, Rock Hill, SC. Mark your calendar.",
     label: "Visit the Family Site →",
     accent: "#1e3a5f",
