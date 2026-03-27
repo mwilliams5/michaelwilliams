@@ -2,14 +2,16 @@ import Image from "next/image";
 
 const facts = [
   { emoji: "👧", label: "Father of One", value: "Georgia Williams", sub: "His finest work" },
-  { emoji: "👨‍👩‍👦", label: "One of Ten Siblings", value: "9 brothers & sisters", sub: "He's the good-looking one" },
+  { emoji: "5️⃣", label: "Child #5 of 10", value: "9 brothers & sisters", sub: "The good-looking one" },
   { emoji: "🍀", label: "St. Patrick's Day", value: "Perfect attendance", sub: "Since before you were born" },
-  { emoji: "🏆", label: "Chili Cookoff", value: "Multi-season veteran", sub: "Team Rambo, Silky Sullivan's" },
-  { emoji: "🎯", label: "Trivia Night", value: "King (self-titled)", sub: "The team name was his idea" },
+  { emoji: "🌶️", label: "Dragon's Breath Chili", value: "Silky Sullivan's veteran", sub: "Fountain Valley, CA" },
+  { emoji: "🧠", label: "The Brain Trust", value: "Trivia night regular", sub: "Boys vs. girls every holiday" },
   { emoji: "🥩", label: "The Steak Challenge", value: "Attempted. Survived.", sub: "Timer: 20:54 remaining" },
-  { emoji: "🐕", label: "Dog Owner", value: "Walks daily", sub: "His therapist. Non-judgmental." },
+  { emoji: "🐕", label: "Rottweiler Dad", value: "Walks daily", sub: "Plural. Always plural." },
   { emoji: "🎄", label: "Santa Hat Collection", value: "Three hats", sub: "One is the 'fancy' one" },
-  { emoji: "⛳", label: "Golf", value: "Currently unranked", sub: "Actively working on it" },
+  { emoji: "⛳", label: "Golf", value: "Beers: many. Strokes: also many.", sub: "Not necessarily in that order" },
+  { emoji: "🍹", label: "The Rita 2000", value: "Inventor & Chief Taster", sub: "A certified Manvention™" },
+  { emoji: "🛁", label: "Beercuzzi Day", value: "2nd Saturday in August", sub: "He invented this. You're welcome." },
   { emoji: "🌮", label: "Margarita Festival", value: "Annual attendee", sub: "He calls it 'research'" },
 ];
 
@@ -38,27 +40,35 @@ export default function About() {
               never, under any circumstances, missing St. Patrick&apos;s Day.
             </p>
             <p>
-              A proud son of Southern California, Michael is one of ten Williams
+              A proud son of Southern California, Michael is child number five of ten Williams
               siblings — a number that sounds made up but is, in fact, completely
               true. He navigated childhood with the grace of someone who understood
               early on that having nine brothers and sisters means you either
               develop a great sense of humor or you don&apos;t survive.
             </p>
             <p>
-              Today, Michael is perhaps best known as the father of Georgia Williams,
-              whose own website is frankly more popular than this one. He accepts
-              this with dignity and a margarita. He is also the proud host of what
-              neighbors describe as &ldquo;the best pool in the neighborhood&rdquo;
-              and what Michael describes as &ldquo;a public service.&rdquo;
+              Today, Michael is perhaps best known as the father of Georgia Williams —
+              actual chef, culinary school graduate, and the reason this website
+              exists in the shadow of a better one. He accepts this with dignity
+              and a margarita dispensed from the Rita 2000, his greatest invention
+              and a certified Manvention&trade;.
             </p>
             <p>
-              When he is not hosting, trivia-ing, or conducting margarita research,
-              Michael can be found on a golf course somewhere in Orange County,
-              technically playing golf.
+              When he is not competing at the Silky Sullivan&apos;s chili cookoff
+              in Fountain Valley with his brothers, going out for trivia nights,
+              or destroying the girls&apos; team at holiday Trivial Pursuit, Michael
+              can be found on a golf course in Orange County — drinking more beers
+              than he is technically playing golf, which he considers a valid strategy.
+            </p>
+            <p>
+              He also invented Beercuzzi Day — celebrated on the second Saturday of
+              August every year — which involves sitting in a jacuzzi or pool with
+              friends, family, and a cold beer. He did not need anyone&apos;s permission
+              for this. He simply declared it a holiday. It is now a holiday.
             </p>
           </div>
 
-          {/* Childhood photo + then-and-now */}
+          {/* Childhood photo */}
           <div className="space-y-6">
             <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/5] relative">
               <Image
@@ -80,7 +90,7 @@ export default function About() {
           <h3 className="font-serif text-3xl font-bold text-[#1e3a5f] text-center mb-10">
             By the Numbers
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {facts.map((f) => (
               <div
                 key={f.label}

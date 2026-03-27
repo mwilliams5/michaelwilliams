@@ -38,7 +38,7 @@ const sections = [
       },
       {
         src: "/images/georgia-movies.jpg",
-        caption: "Star Wars night at the movies. He wore the Millennium Falcon shirt because he is teaching Georgia what matters in this world.",
+        caption: "Star Wars night at the movies. He wore the Millennium Falcon shirt because he is teaching Georgia — an actual trained chef — what really matters in this world.",
         year: "~2018",
       },
       {
@@ -74,29 +74,39 @@ const sections = [
       },
       {
         src: "/images/july4-2024.jpg",
-        caption: "Fourth of July 2024. Please note the custom shirt featuring his daughter Georgia's face. He made it himself. It was his idea.",
+        caption: "Fourth of July 2024. The face on the shirt is his sister Mary. His niece Cheryl is in the photo. He made the shirt himself. This is not considered unusual.",
         year: "Jul 2024",
       },
       {
         src: "/images/pool-2023.jpg",
-        caption: "Pool day, August 2023. Someone has to host. He has accepted this responsibility with characteristic enthusiasm.",
+        caption: "Pool day at sister Mary and brother-in-law Mike Ross's place, August 2023. They have the best pool. He attends regularly and enthusiastically.",
         year: "Aug 2023",
       },
       {
         src: "/images/golf-2025.jpg",
-        caption: "Golf, September 2025. Currently unranked by any official golf organization. The scorecard is private.",
+        caption: "Golf, September 2025. The beers on this outing outnumbered the strokes. He is comfortable with this.",
         year: "Sep 2025",
       },
     ],
   },
   {
     title: "The Inner Circle",
-    subtitle: "The therapist. The people he tolerates most.",
+    subtitle: "The Rottweilers. The real bosses.",
     photos: [
       {
         src: "/images/dog-foggy.jpg",
-        caption: "Morning walk, October 2020. His therapist. Non-judgmental. Excellent listener. Significantly better at outdoor mornings than Michael is.",
+        caption: "Morning walk, October 2020. His Rottweiler. Non-judgmental. Excellent listener. Significantly more enthusiastic about 6am than Michael is.",
         year: "Oct 2020",
+      },
+      {
+        src: "/images/dogs-walk.jpg",
+        caption: "October 2021. Walking two Rottweiler puppies simultaneously. They are in charge. He is aware of this.",
+        year: "Oct 2021",
+      },
+      {
+        src: "/images/dogs-car.jpg",
+        caption: "February 2025. Two Rottweilers in the car. They requested the window seats. He obliged.",
+        year: "Feb 2025",
       },
     ],
   },

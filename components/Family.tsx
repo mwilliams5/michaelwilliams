@@ -6,7 +6,7 @@ const sites = [
     img: "/images/georgia-movies.jpg",
     name: "Georgia Williams",
     tagline: "His Finest Achievement",
-    desc: "Chef-in-training, dog whisperer, and the reason he showed up at the movies in a Millennium Falcon shirt. Her website is objectively better than this one. He accepts this.",
+    desc: "Culinary school graduate, working chef, dog whisperer, and the reason he showed up at the movies in a Millennium Falcon shirt. Her website is objectively better than this one. He accepts this.",
     label: "Visit Georgia's Site →",
     accent: "#2a5082",
   },
