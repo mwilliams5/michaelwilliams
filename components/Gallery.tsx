@@ -59,7 +59,7 @@ const sections = [
     photos: [
       {
         src: "/images/stpatricks-2025.jpg",
-        caption: "St. Patrick's Day 2025. Green beer. Every year. No exceptions. He has never missed one. This is not hyperbole.",
+        caption: "St. Patrick's Day 2025. Green beer. Every year. No exceptions. He has never missed one. Pictured with his brother Damian, who also has never missed one.",
         year: "Mar 2025",
       },
       {
@@ -74,7 +74,7 @@ const sections = [
       },
       {
         src: "/images/july4-2024.jpg",
-        caption: "Fourth of July 2024. The face on the shirt is his sister Mary. His niece Cheryl is in the photo. He made the shirt himself. This is not considered unusual.",
+        caption: "Fourth of July 2024. The face on the shirt is his sister Mary. His niece Cheryl is actually in the photo — yes, a real human being is standing right there. Please look at her. He made the shirt himself. This is not considered unusual.",
         year: "Jul 2024",
       },
       {

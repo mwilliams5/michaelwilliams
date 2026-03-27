@@ -61,7 +61,7 @@ export default function Hero() {
           {/* floating caption */}
           <div className="absolute -bottom-4 -left-4 bg-[#c8963e] text-white font-sans text-sm px-4 py-2 rounded-xl shadow-lg max-w-[220px] leading-snug">
             📍 Southern California<br />
-            <span className="text-white/80 text-xs">Fountain Valley, CA</span>
+            <span className="text-white/80 text-xs">Laguna Hills, CA</span>
           </div>
         </div>
       </div>

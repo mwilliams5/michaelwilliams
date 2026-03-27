@@ -14,7 +14,7 @@ const awards = [
     img: "/images/chili-cookoff.jpg",
     title: "Dragon's Breath Chili — Competition Record",
     subtitle: "Silky Sullivan's, Fountain Valley, CA — Multiple Seasons",
-    desc: "Michael enters the annual chili cookoff at Silky Sullivan's alongside his brothers Damian and Rambo — each making their own chili, each convinced theirs is best. His entry: Dragon's Breath Chili. That's him on the right. The apron is earned.",
+    desc: "Michael enters the annual chili cookoff at Silky Sullivan's alongside his brothers Damian and Rambo — each making their own chili, each convinced theirs is best. His entry: Dragon's Breath Chili. That's him on the right, wearing the gold medal around his neck. First place. The gold medal is earned.",
     badge: "🌶️",
     color: "bg-orange-50 border-orange-200",
     badgeBg: "bg-orange-100 text-orange-700",
@@ -31,17 +31,18 @@ const awards = [
   {
     img: "/images/rita-2000.jpg",
     title: "The Rita 2000 — Official Manvention™",
-    subtitle: "Fountain Valley, CA — Patent Pending (Spiritually)",
+    subtitle: "Laguna Hills, CA — Patent Pending (Spiritually)",
     desc: "Behold the world's greatest margarita machine: a DeWalt cooler mounted on diamond-plate steel with a dedicated spigot for maximum dispensing efficiency. Built by hand. Tested extensively. The Rita 2000 is not just a machine — it is a philosophy.",
     badge: "🍹",
     color: "bg-blue-50 border-blue-200",
     badgeBg: "bg-blue-100 text-blue-700",
+    contain: true,
   },
   {
     img: "/images/stpatricks-2026.jpg",
     title: "Green Beer Perfect Attendance Record",
     subtitle: "St. Patrick's Day — Every. Single. Year.",
-    desc: "There is no evidence Michael has ever missed a St. Patrick's Day. There is extensive photographic evidence he has celebrated it. The green beer is non-negotiable. The family shows up for him.",
+    desc: "There is no evidence Michael has ever missed a St. Patrick's Day. Pictured with his mother — a true saint who raised ten children and still shows up for green beer — and the rest of the family. The green beer is non-negotiable. His mother's patience is legendary.",
     badge: "🍀",
     color: "bg-green-50 border-green-200",
     badgeBg: "bg-green-100 text-green-700",
@@ -86,7 +87,7 @@ export default function Achievements() {
                   src={a.img}
                   alt={a.title}
                   fill
-                  className="object-cover"
+                  className={a.contain ? "object-contain p-2" : "object-cover"}
                 />
                 <div className="absolute top-3 right-3">
                   <span className={`${a.badgeBg} text-2xl w-10 h-10 rounded-full flex items-center justify-center shadow`}>
