@@ -11,6 +11,7 @@ export default function Nav() {
           <a href="#achievements" className="hover:text-[#c8963e] transition-colors">Achievements</a>
           <a href="#gallery" className="hover:text-[#c8963e] transition-colors">Gallery</a>
           <a href="#family" className="hover:text-[#c8963e] transition-colors">Family</a>
+          <a href="#contact" className="hover:text-[#c8963e] transition-colors">Contact</a>
         </div>
       </div>
     </nav>

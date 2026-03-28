@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Achievements from "@/components/Achievements";
 import Gallery from "@/components/Gallery";
 import Family from "@/components/Family";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Achievements />
       <Gallery />
       <Family />
+      <Contact />
       <Footer />
     </>
   );
