@@ -15,7 +15,7 @@ const sites = [
     img: "/images/mary-ross.jpg",
     name: "Mary Williams",
     tagline: "His Sister. It's Complicated.",
-    desc: "One of Michael's nine siblings. The subject of a whole website dedicated to her particular brand of drama. The title is affectionate. Mostly. She's at every St. Patrick's Day.",
+    desc: "One of Michael's nine siblings. The subject of a whole website dedicated to her particular brand of drama. The title is affectionate. Mostly.",
     label: "Visit Mary's Site →",
     accent: "#c0392b",
   },
