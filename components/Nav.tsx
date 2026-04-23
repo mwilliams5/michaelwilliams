@@ -8,6 +8,7 @@ export default function Nav() {
         </a>
         <div className="hidden md:flex gap-8 text-sm font-sans text-white/80">
           <a href="#about" className="hover:text-[#c8963e] transition-colors">About</a>
+          <a href="#assessment" className="hover:text-[#c8963e] transition-colors">Assessment</a>
           <a href="#achievements" className="hover:text-[#c8963e] transition-colors">Achievements</a>
           <a href="#gallery" className="hover:text-[#c8963e] transition-colors">Gallery</a>
           <a href="#family" className="hover:text-[#c8963e] transition-colors">Family</a>

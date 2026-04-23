@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import CharacterAssessment from "@/components/CharacterAssessment";
 import Achievements from "@/components/Achievements";
 import Gallery from "@/components/Gallery";
 import Family from "@/components/Family";
@@ -13,6 +14,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <About />
+      <CharacterAssessment />
       <Achievements />
       <Gallery />
       <Family />
