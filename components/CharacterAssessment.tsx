@@ -5,7 +5,7 @@ const badIdeas = [
   },
   {
     num: 2,
-    text: "Wearing matching clothes with his brother, including — and especially — bad Hawaiian shirts.",
+    text: "Wearing matching clothes with his brothers, including — and especially — bad Hawaiian shirts.",
   },
   {
     num: 3,
@@ -36,7 +36,7 @@ const goodIdeas = [
   },
   {
     num: 4,
-    text: "Margaritas are best served in a 5-gallon Igloo cooler. He calls it the Rita 2.0.",
+    text: "Margaritas are best served in a 5-gallon Igloo cooler. He calls it the Rita 2000.",
   },
   {
     num: 5,
