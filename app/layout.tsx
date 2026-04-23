@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: "Michael Williams | michaelwilliams.org",
   description:
     "The official website of Michael Williams. No, not THAT Michael Williams. THIS one. The one from Southern California who really loves St. Patrick's Day.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+  },
   openGraph: {
     title: "Michael Williams | The Definitive One",
     description:
